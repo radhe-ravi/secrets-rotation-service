@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+.venv/
+
+# VSCode
+.vscode/
+
+# Byte-compiled
+*.py[cod]
+*$py.class
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Secrets
+*.pem
+*.key
+secrets.json
+
+# Docker
+**/data/
+**/logs/
