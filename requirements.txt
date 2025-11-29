@@ -1,0 +1,38 @@
+# FastAPI & API
+# fastapi==0.111.0
+# uvicorn[standard]==0.23.2
+# pydantic==2.7.1
+
+# Database
+# psycopg2-binary==2.9.9       # PostgreSQL driver
+# motor               # Async MongoDB driver
+# SQLAlchemy==2.0.22            # ORM for Postgres
+
+# Cache
+# redis==5.3.0
+# aioredis==2.0.1               # Async Redis client
+
+# JWT / Security
+# pyjwt==2.10.1               # JSON Web Token for authentication
+# passlib[bcrypt]==1.7.4        # For password hashing if needed
+
+# Cloud SDKs
+boto3==1.28.46                # AWS Secret Manager
+# google-cloud-secret-manager==2.19.0
+# azure-identity==1.13.0
+# azure-keyvault-secrets==4.9.0
+# hvac==2.4.0                   # HashiCorp Vault
+
+# Task Scheduler / Background Jobs
+celery==5.4.7
+flower==1.1.0                 # Optional monitoring for Celery
+
+# Development / Utilities
+python-dotenv==1.0.0          # .env file loader
+httpx==1.4.2                  # Async HTTP client for provider calls
+loguru==0.7.0                 # Optional enhanced logging
+
+# Testing
+pytest==7.4.0
+pytest-asyncio==0.21.0
+httpx[http2]==1.4.2
